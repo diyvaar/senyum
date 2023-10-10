@@ -1,0 +1,217 @@
+.alret {
+    box-shadow: 0 3px 20px rgb(0, 0, 0);
+    border-radius: 12px;
+    margin-top: -500px;
+    margin-bottom: 500px;
+    background-color: black;
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+/* promo */
+.stickywrap {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    float: none;
+    overflow: hidden;
+    display: scroll;
+    position: fixed;
+    bottom: 0;
+    z-index: 9999
+}
+
+.stickyzone {
+    text-align: center;
+    display: block;
+    max-width: 970px;
+    height: auto;
+    overflow: hidden;
+    margin: auto
+}
+
+.stickyzone img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle
+}
+
+.stickyclose {
+    cursor: pointer;
+    text-align: center
+}
+
+/* service */
+#services {}
+
+#services .services-top {
+    padding: 70px 0 50px;
+}
+
+#services .services-list {
+    padding-top: 50px;
+}
+
+.services-list .service-block {
+    margin-bottom: 25px;
+}
+
+.services-list .service-block .ico {
+    font-size: 38px;
+    float: left;
+}
+
+.services-list .service-block .text-block {
+    margin-left: 58px;
+}
+
+.services-list .service-block .text-block .name {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.services-list .service-block .text-block .info {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.services-list .service-block .text-block .text {
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 300;
+}
+
+.highlight {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team {
+  background: #fff;
+  padding: 60px 0;
+}
+
+.team .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.team .member .member-info {
+  padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #151515;
+}
+
+.team .member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #010101;
+}
+
+.team .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.team .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+}
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: #151515;
+  margin: 0 3px;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.8);
+  transition: ease-in-out 0.3s;
+  color: #484848;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team .member .social a:hover {
+  color: #151515;
+  background: #ffc451;
+}
+
+.team .member:hover .social {
+  opacity: 1;
+  bottom: 15px;
+}
+
+/*about  */
+
+#about {
+    background-image: url(assets/bgHome2.png);
+    padding: 148px 0px 148px 0px;
+
+}
+
+#about {
+    color: white;
+}
+
+.container {display: table;width: 100%;}
+
+@media screen and {
+    .card-about {
+        width: 100%;
+        display: block;
+        height: 250px;
+    }
+}
+
+.card-about {
+    background-color:#5F5E5E;
+    padding: 30px 20px 30px 20px;
+}
+
+/* button whatsapp */
+.wabutton{
+    width:40px;
+    height:40px;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    z-index:100;
+}

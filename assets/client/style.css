@@ -1,0 +1,66 @@
+/* contact */
+body {
+    background-color: #e9e9e9;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+/* Client */
+#client {
+    padding: 50px 20px 50px 20px;
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (width: 100%) {
+    .font h3 {
+        font-size: 35px;
+        width: 100%;
+        font-weight: bold;
+    }
+}
+
+.col img {
+    max-width: 100px;
+}
+
+/* button whatsapp */
+.wabutton {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+/* location */
+#location {
+    padding: 50px 20px 50px 20px;
+    color: black;
+}
+
+@media screen and (width: 100%) {
+    .ukuran h3 {
+        font-size: 35px;
+        width: 100%;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .ukuran p {
+        font-size: 15px;
+    }
+}
+
+/* Jurney */
+.gradient-custom {
+    background-color: #a9a9a9;
+}
+
+.carousel-indicators {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
